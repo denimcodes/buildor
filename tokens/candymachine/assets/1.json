@@ -1,0 +1,15 @@
+{
+  "name": "Buildor #2",
+  "description": "10x buildors in blockchain",
+  "symbol": "BLD",
+  "image": "1.jpg",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "1.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}
