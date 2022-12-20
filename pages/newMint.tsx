@@ -45,17 +45,17 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
       <VStack spacing={20}>
         <Container>
           <VStack spacing={8}>
-            <Heading color="white" as="h1" size="2xl" textAlign="center">
+            <Heading color="white" as="h1" size="lg" textAlign="center">
               😮 A new buildoor has appeared!
             </Heading>
 
-            <Text color="bodyText" fontSize="xl" textAlign="center">
+            <Text color="bodyText" fontSize="md" textAlign="center">
               Congratulations, you minted a lvl 1 buildoor! <br />
               Time to stake your character to earn rewards and level up.
             </Text>
           </VStack>
         </Container>
-        <Image src={metadata?.image ?? ""} alt="" />
+        <Image width={200} height={200} src={metadata?.image ?? ""} alt="" />
         <Button bgColor="accent" color="white" maxW="380px">
           <HStack>
             <Text>stake my buildoor</Text>

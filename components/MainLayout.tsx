@@ -19,10 +19,10 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
       <Box
         w="full"
         h="calc(100vh)"
-        bgImage={connected ? "" : "url(/home-background.svg)"}
+        bgImage="url(/assets/home-background.svg)"
         backgroundPosition="center"
       >
-        <Stack w="full" h="calc(100vh)" justify="center">
+        <Stack w="full" justify="center">
           <NavBar />
 
           <Spacer />
